@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Russo One', sans-serif;
+    background-image: url(/img/the-mandalorian-season-2-tv-series-2020-2560x1440-2765.jpg);
+}
+
+textarea{
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    width: 25vh;
+    background:transparent;
+    font: solid 70px;
+    border:solid white;
+}
+
+#output{
+    border: 1px solid black;
+    display:block;
+    width:29vh;
+    height: 25vh;
+    border: solid white;
+    margin-bottom:70px;
+}
+
+.btn-translate{
+    width: 100px;
+}
+
+.btn-translate:hover{
+  color: yellowgreen;
+}
+
+
+
+.commonDiv{
+    margin: 1rem;
+}
+
+.container-main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    border: solid white;
+    
+}
+
+.heading{
+
+   
+    align-items: center;
+    width: 400px;
+    padding-top:50px;
+    
+}
