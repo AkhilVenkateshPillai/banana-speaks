@@ -37,9 +37,9 @@ textarea{
 #output{
     border: 1px solid black;
     padding: 1rem;
-    max-width:25%;
-    height: 20px;
-    font-size: 20px;
+    max-width:50%;
+    color:black;
+    font-size: 15px;
     border: solid white;
     margin-top:40px;
     margin-bottom:60px;
@@ -79,7 +79,7 @@ textarea{
 	border-radius:20px;
 	border:3px solid white;
     color:white;
-    font-size: 20px;
+    font-size: 15px bold;
 	padding:16px 31px;
 	text-decoration:none;
 	
