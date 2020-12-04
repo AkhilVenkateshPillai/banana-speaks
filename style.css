@@ -10,7 +10,7 @@ body{
    flex-direction: column;
    justify-content: center;
    margin: 0 auto ;
-   height: 100vh;
+   height: 150vh;
    font-family: 'Russo One', sans-serif;
    background-image: url(/img/the-mandalorian-season-2-tv-series-2020-2560x1440-2765.jpg);
    background-position: center;
@@ -80,6 +80,26 @@ textarea{
 	position:relative;
 	top:1px;
 }
+
+/* footer */
+
+.list-items {
+    display: inline;
+    padding: 0 5px;
+}
+
+.footer-heading{
+    text-align: center;
+    color:white;
+}
+.footer ul{
+    text-align: center;
+    padding-left: 0px;
+}
+.fab{
+    color: white;
+}
+
 
         
 
