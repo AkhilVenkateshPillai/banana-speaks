@@ -9,9 +9,9 @@ body{
 }
 
 .container-body{
-   max-width: 80%;
+   max-width: 1000px;
    margin: 0 auto ;
-   padding: 30px 70px;
+   padding: 70px 70px 40px;
    font-family: 'Russo One', sans-serif;
    background-image: url(/img/the-mandalorian-season-2-tv-series-2020-2560x1440-2765.jpg);
    background-position: center;
@@ -22,7 +22,7 @@ body{
 
 textarea{
     padding: 1rem;
-    max-width: 50%;
+    width: 120px;
     height: 20px;
     background:transparent;
     font-family: 'Russo One', sans-serif;
@@ -35,7 +35,7 @@ textarea{
 #output{
     border: 1px solid black;
     padding: 1rem;
-    width:50%;
+    width:150px;
     color:black;
     font-size: 15px;
     overflow: auto;
@@ -56,7 +56,6 @@ textarea{
     font-size: 50px;
     color: white;
     border: solid white;
-    box-sizing: border-box;
 }
 
 .heading{
