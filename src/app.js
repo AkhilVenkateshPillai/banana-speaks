@@ -16,6 +16,7 @@ const notifHandler = () => {
 
     fetch(APIurl).then(response => response.json()).then(json => { 
         var content = json.contents.translated;
+        console.log(content);
         output.innerHTML = content; 
         
     }).catch(errorHandler)
