@@ -2,7 +2,7 @@ var clickNotif = document.querySelector("#btn-translate");
 var trnsltContent = document.querySelector("#txt-input");
 var output = document.querySelector("#output");
 
-var APIurl = 'https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json?text=' 
+var APIurl = 'https://api.funtranslations.com/translate/mandalorian.json?text=' 
 
 const APIurlGen=(tcontent)=>{
     return APIurl+tcontent+""
@@ -21,7 +21,7 @@ const notifHandler = () => {
 
 
     fetch(APIurlGen(trnsltContent.value)).then(response => response.json()).then(json => { 
-        var content = json.contents.text;
+        var content = json.contents.translated;
         console.log(content);
         output.innerHTML = content; 
         
