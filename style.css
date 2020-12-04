@@ -10,9 +10,6 @@ body{
 
 .container-body{
    max-width: 80%;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
    margin: 0 auto ;
    padding: 30px 70px;
    font-family: 'Russo One', sans-serif;
@@ -20,6 +17,7 @@ body{
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+   box-shadow: 10px 15px #888888;
 }
 
 textarea{
@@ -37,13 +35,14 @@ textarea{
 #output{
     border: 1px solid black;
     padding: 1rem;
-    max-width:50%;
+    width:50%;
     color:black;
     font-size: 15px;
     overflow: auto;
     border: solid white;
     margin-top:40px;
     margin-bottom:60px;
+    box-sizing: border-box;
 }
 
 .container-main{
@@ -57,15 +56,14 @@ textarea{
     font-size: 50px;
     color: white;
     border: solid white;
-    
+    box-sizing: border-box;
 }
 
 .heading{
-
-    align-items: center;
+    text-align: center;
     max-width: 200px;
     margin-top:40px;
-    padding: 20px;
+    padding: 10px;
     font-size: 10px;
     
 }
@@ -76,12 +74,12 @@ textarea{
 
 .btn-translate {
 
-	background-image:linear-gradient(to top left,#eedf0f ,grey);
-	border-radius:20px;
+	background-image:linear-gradient(to bottom left,#eedf0f ,grey);
+    border-radius:20px;
 	border:3px solid white;
     color:white;
-    font-size: 15px bold;
-	padding:16px 31px;
+    font: 15px;
+	padding:9px 31px;
 	text-decoration:none;
 	
 }
@@ -91,6 +89,10 @@ textarea{
 }
 
 /* footer */
+
+footer{
+    padding-top: 30px;
+}
 
 .list-items {
     display: inline;
@@ -104,6 +106,7 @@ textarea{
 .footer ul{
     text-align: center;
     padding-left: 0px;
+    
 }
 .fab{
     color: white;
